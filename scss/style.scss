@@ -10,4 +10,531 @@ ol,ul{
 a,a:hover{
     text-decoration: none;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #e3e2e2;
+}
 /* common css end  */
+
+/* Header section css start  */
+#header{
+    background: url(../img/h_bg_1.png);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    position: relative;
+    .user_1{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 113px;
+        height: 58px;
+        background: #00132b;
+        font-size: 20px;
+        color: #fef6fc;
+        text-align: center;
+        padding-top: 16px;
+    }
+    .user_2{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 113px;
+        height: 58px;
+        background: #00132b;
+        font-size: 20px;
+        color: #fef6fc;
+        text-align: center;
+        padding-top: 16px;
+    }
+    #nav{
+        background: #ed242d;
+        position: relative;
+        #navbar{
+            ul li{
+                a{
+                    color: #fef6fc;
+                    font-size: 17px;
+                    text-transform: uppercase;
+                    margin: 0 32px;
+                    transition: 0.3s;
+                    &:hover{
+                        border-bottom: 1px solid #fff;
+                    }
+                }
+            }
+        }
+        .virus{
+            position: absolute;
+            top: 0px;
+            left: 488px;
+            background: #ed242d;
+            width: 140px;
+            height: 130px;
+            border-radius: 50%;
+            color: #fef6fc;
+            padding-top: 20px;
+            font-size: 17px;
+            text-transform: uppercase;
+            text-transform: 0.3s;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    .header_content{
+        margin-top: 200px;
+        h1{
+            font-size: 68px;
+            font-weight: 700;
+            color: #fef6fc;
+            margin-bottom: 80px;
+        }
+        .btn{
+            a{
+                padding: 9px 25px;
+                background: #fef6fc;
+                color: #00132b;
+                text-transform: capitalize;
+                font-size: 17px;
+                font-weight: 400;
+                margin-right: 15px;
+                transition: 0.3x;
+                &:hover{
+                    background: #ed242d;
+                    color: #fef6fc;
+                }
+            }
+        }
+    }
+}
+/* Header section css end  */
+/* Corona Virus section css start  */
+#corona{
+    .corona_container{
+        border-radius: 60px;
+        background: #fff;
+        margin-top: -150px;
+        box-shadow: -5px 6px 12px -1px rgba(0,0,0,0.84);
+        z-index: 9;
+        .corona_content{
+            padding-top: 164px;
+            padding-bottom: 128px;
+            padding-left: 45px;
+            h2{
+                font-size: 45px;
+                font-weight: 700;
+                color: #081419;
+                margin-bottom: 20px;
+            }
+            hr{
+                width: 90px;
+                height: 10px;
+                background: #ed1c24;
+                border-radius: 5px;
+                margin-bottom: 40px;
+            }
+            p{
+                width: 500px;
+                font-size: 14px;
+                font-weight: 400;
+                color: #081419;
+                margin-bottom: 60px;
+            }
+            a{
+                padding: 15px 40px;
+                background: #00132b;
+                text-transform: uppercase;
+                color: #fef6fc;
+                font-size: 17px;
+                font-weight: 700;
+                transition: 0.3s;
+                &:hover{
+                    background: #ed242d;
+                    color: #fef6fc;
+                }
+            }
+        }
+        .corona_img{
+            img{
+                margin-top: 80px;
+                padding-right: 40px;
+            }
+        }
+    }
+}
+/* Corona Virus section css end  */
+/* Corona Virus_3 section css start  */
+#corona_3{
+    margin-top: 140px;
+    margin-bottom: 125px;
+    .corona_3_content{
+        margin-left: 70px;
+        h2{
+            font-size: 45px;
+            font-weight: 700;
+            color: #151515;
+            text-transform: uppercase;
+            margin-top: 15px;
+            margin-bottom: 40px;
+        }
+        p{
+            font-size: 17px;
+            font-weight: 400;
+            color: #151515;
+            margin-bottom: 40px;
+            line-height: 28px;
+        }
+        a{
+            padding: 15px 40px;
+            background: #00132b;
+            text-transform: uppercase;
+            color: #fef6fc;
+            font-size: 17px;
+            font-weight: 700;
+            transition: 0.3s;
+            &:hover{
+                background: #ed242d;
+                color: #fef6fc;
+            }
+        }
+    }
+}
+/* Corona Virus_3 section css end  */
+/* Protect section css start  */
+#protect{
+    margin-bottom: 170px;
+    .title{
+        h2{
+            font-size: 45px;
+            font-weight: 700;
+            color: #1b1b1b;
+        }
+        p{
+            font-size: 15px;
+            color: #151515;
+            font-weight: 400;
+            margin-bottom: 45px;
+        }
+    }
+    .protect_container{
+        background: url(../img/corona_bg.png);
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+        border-radius: 100px;
+        padding-top: 130px;
+        padding-left: 120px;
+        .protect_contant{
+            width: 300px;
+            margin-right: 20px;
+            .protect_box{
+                width: 300px;
+                height: 280px;
+                background: #fef6fc;
+                border-radius: 15px;
+                padding: 0 20px;
+                img{
+                    margin-top: 40px;
+                    margin-bottom: 20px;
+                }
+                h6{
+                    font-size: 17px;
+                    font-weight: 700;
+                    color: #0d0e0e;
+                    margin-bottom: 15px;
+                }
+                p{
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #081419;
+                }
+            }
+            a{
+                display: inline-block;
+                padding: 20px 45px;
+                background: #00132b;
+                text-transform: uppercase;
+                color: #fef6fc;
+                font-size: 15px;
+                font-weight: 700;
+                transition: 0.3s;
+                margin-top: 20px;
+                margin-left: 65px;
+                &:hover{
+                    background: #ed242d;
+                    color: #fef6fc;
+                }
+            }
+        }
+    }
+}
+/* Protect section css end  */
+/* Corona_4 section css start  */
+#corona_4{
+    .title{
+        h2{
+            font-size: 45px;
+            font-weight: 700;
+            color: #1b1b1b;
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 17px;
+            color: #151515;
+            font-weight: 400;
+            margin-bottom: 56px;
+        }
+    }
+    .corona_box{
+        width: 360px !important;
+        background: #fbfbfb;
+        margin-right: 20px;
+        padding: 20px;
+        position: relative;
+        .virus_2{
+            position: absolute;
+            bottom: -40px;
+            left: 134px;
+        }
+        .corona_box_img{
+            position: relative;
+            transition: 0.3s;
+            .overflow{
+                position: absolute;
+                top: 60%;
+                left: 50%;
+                transform: translate( -50%, -50%);
+                a{
+                    padding: 14px 36px;
+                    background: #ed1c24;
+                    font-size: 15px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #fef6fc;
+                    transition: 0.3s;
+                    &:hover{
+                        background: #081419;
+                        color: #fbfbfb;
+                    }
+                }
+            }
+        }
+        .corona_box_text{
+           a{
+            display: inline-block;
+              margin-top: 30px;
+              font-size: 30px;
+              font-weight: 700;
+              color: #151515;
+              margin-bottom: 5px;
+           }
+           p{
+              font-size: 15px;
+              font-weight: 400;
+              color: #081419;
+              margin-bottom: 40px;
+           }
+        }
+    }
+}
+/* Corona_4 section css end  */
+/* Doctor section css start  */
+#doctor{
+    position: relative;
+    margin-top: 120px;
+    .virus_3{
+        position: absolute;
+        top: 248px;
+        right: 12px;
+    }
+    .virus_4{
+        position: absolute;
+        bottom: 50px;
+    }
+    .title{
+        h2{
+            font-size: 45px;
+            font-weight: 700;
+            color: #111111;
+            margin-bottom: 100px;
+        }
+    }
+    .doctor_info{
+        background: #fdfdfd;
+        padding: 0 50px;
+        border-radius: 10px;
+        position: relative;
+        width: 550px;
+        margin-right: 20px;
+        .doctor_img{
+            position: absolute;
+            background: #fdfdfd;
+            top: -66px;
+            left: 224px;
+            border-radius: 50px;
+        }
+        h6{
+            font-size: 20px;
+            font-weight: 700;
+            color: #081419;
+            margin-top: 90px;
+            margin-bottom: 25px;
+        }
+        p{
+            font-size: 15px;
+            font-weight: 400;
+            color: #081418;
+            margin-bottom: 50px;
+        }
+        img{
+            margin-bottom: 60px;
+        }
+    }
+    .title_2{
+        h2{
+            font-size: 45px;
+            font-weight: 700;
+            color: #242424;
+            margin-top: 135px;
+            margin-bottom: 60px;
+        }
+    }
+}
+/* Doctor section css end  */
+/* Email section css start  */
+#email{
+    background: url(../img/email_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 335px;
+    .input{
+        input{
+            display: block;
+            margin-top: 75px;
+            width: 100%;
+            background: transparent;
+            outline: none;
+            border: 1px solid #ebeaeb;
+            padding: 30px;
+            border-radius: 50px;
+            color: #fdfdfd;
+            margin-bottom: 30px;
+        }
+    }
+    .subscribe{
+        .submit{
+            font-size: 21px;
+            font-weight: 700;
+            text-transform: uppercase;
+            outline: none;
+            background: #00132b;
+            color: #fbfbfb;
+            padding: 25px 70px;
+            border: 1px solid #00132b;
+            border-radius: 50px;
+        }
+    }
+}
+/* Email section css end  */
+/* Footer section css start  */
+#footer{
+    background: #101011;
+    padding-top: 108px;
+    .resoursce{
+        h6{
+            font-size: 24px;
+            font-weight: 700;
+            color: #fefefd;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        ul{
+            li{
+                a{
+                    display: inline-block;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color: #fef6fc;
+                    margin-bottom: 17px;
+                    text-transform: capitalize;
+                    transition: 0.3s;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .about{
+        h6{
+            font-size: 24px;
+            font-weight: 700;
+            color: #fefefd;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 17px;
+            font-weight: 400;
+            color: #fefefd;
+            line-height: 35px;
+        }
+    }
+    .contact{
+        h6{
+            font-size: 24px;
+            font-weight: 700;
+            color: #fefefd;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        ul{
+            li{
+                margin-bottom: 20px;
+                i{
+                    font-size: 26px;
+                    color: #fff;
+                    margin-right: 20px;
+                    margin-bottom: 20px;
+                }
+                p{
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #fff;
+                }
+                a{
+                    display: inline-block;
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #fff;
+                    transition: 0.3s;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .country{
+        margin-left: -78px;
+        h6{
+            font-size: 24px;
+            font-weight: 700;
+            color: #fefefd;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+    }
+    hr{
+        color: #4e4e4e;
+        margin-bottom: 30px;
+    }
+    p{
+        font-size: 17px;
+        font-weight: 400;
+        color: #fefefd;
+        margin-bottom: 30px;
+    }
+}
+/* Footer section css end  */
